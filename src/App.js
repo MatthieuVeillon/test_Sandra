@@ -24,7 +24,7 @@ The goal of the exercice is to fetch users and display it from github.
 * */
 
 function App() {
-  const [profileName, setProfileName] = useState("tom");
+  const [profileName, setProfileName] = useState("");
   const [profilesData, setProfilesData] = useState(null);
 
   const handleChange = event => {
